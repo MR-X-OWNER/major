@@ -7,6 +7,8 @@
 ```
 apt update && upgrade
 pkg install git
+cd ./
+rm -rf major
 git clone https://github.com/MR-X-OWNER/major.git
 cd major
 python app.py
