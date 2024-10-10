@@ -6,11 +6,13 @@
 
 ```
 apt update && upgrade
+Pkg install nano
 pkg install git
 cd ./
 rm -rf major
 git clone https://github.com/MR-X-OWNER/major.git
 cd major
+pip install -r requirements.txt
 python app.py
 ```
 <b>By Mr-X </b>
